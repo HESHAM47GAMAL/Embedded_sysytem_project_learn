@@ -6,7 +6,7 @@
  */
 
 #include <avr/io.h>
-
+#include <util/delay.h>
 int main(void)
 {
 	/*****Initialization ****/
@@ -26,13 +26,26 @@ int main(void)
 	//					|		|
 	//					\/		\/
 	//					Off		on
-
+	unsigned char flag = 0; //if 0 = button not pressed , 1 =utton pressed
 	while(1)
 	{
 		/****Application code****/
-		if(PINB & (1<< PB0))
+		if(! (PINB & (1<< PB0)) ) /*when smell any logic low as Button pressed */
 		{
-			PORTC ^= (1 << PC0);
+			_delay_ms(100); /// make Delay 50 ms to avoid Bounce Period
+			if(! (PINB & (1 << PB0)) )
+			{
+				if(! flag)
+				{
+					PORTC ^= (1 << PC0);
+					flag =1;
+				}
+			}
+
+		}
+		else//Button released so set flag to zero again
+		{
+			flag = 0;
 		}
 
 
