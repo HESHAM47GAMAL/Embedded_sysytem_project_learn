@@ -1,12 +1,25 @@
-16:15:10 **** Incremental Build of configuration Debug for project 1.Exercise1 ****
+19:39:05 **** Incremental Build of configuration Debug for project 3.Exercise3 ****
 make all 
+Building target: 3.Exercise3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3.Exercise3.map -mmcu=atmega16 -o "3.Exercise3.elf"  ./main.o   
+Finished building target: 3.Exercise3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3.Exercise3.elf  >"3.Exercise3.lss"
+Finished building: 3.Exercise3.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3.Exercise3.elf  "3.Exercise3.hex"
+Finished building: 3.Exercise3.hex
+ 
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega16 1.Exercise1.elf
+avr-size --format=avr --mcu=atmega16 3.Exercise3.elf
 AVR Memory Usage
 ----------------
 Device: atmega16
 
-Program:     226 bytes (1.4% Full)
+Program:     242 bytes (1.5% Full)
 (.text + .data + .bootloader)
 
 Data:          0 bytes (0.0% Full)
