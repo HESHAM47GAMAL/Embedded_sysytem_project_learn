@@ -22,7 +22,7 @@ int main(void)
 	DDRC |= (0x03); /*Configure PIN 0 , 1 PORTC as output pin*/
 	PORTC |= (0x03); /*Set PIN 0 , 1 POrtC to value Zero (Led Off)*/
 
-//	value on pin    1		0
+//	value on pin    1		0  as connected positive logic
 //					|		|
 //					|		|
 //					\/		\/
