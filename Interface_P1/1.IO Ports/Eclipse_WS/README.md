@@ -3,6 +3,7 @@
 - [Exercise-2](#Exercise-2)
 - [Exercise-3](#Exercise-3)
 - [Exercise-4](#Exercise-4)
+- [Challenge-1](#Challenge-1)
 
 ## Exercise-1
 <p>1.connect pin3 PortA with push button using Pull up resistor</p>
@@ -28,3 +29,7 @@
 <p>Connect switch to Pin 0 in PORTB using Internal Pull up  resistor</p>
 <p>connect led to pin 0 PORTC using negative logic</p>
 <p>if button pressed toggle Led every New press</p>
+
+## Challenge-1
+<p>Connect 8 leds to PORTC using Positive logic</p>
+<p>make roll action as led1 only turn on then next one and last off then next one until led8 and return from begin at led1</p>
