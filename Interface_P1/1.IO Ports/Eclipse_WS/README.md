@@ -2,6 +2,7 @@
 - [Exercise-1](#Exercise-1)
 - [Exercise-2](#Exercise-2)
 - [Exercise-3](#Exercise-3)
+- [Exercise-4](#Exercise-4)
 
 ## Exercise-1
 <p>1.connect pin3 PortA with push button using Pull up resistor</p>
@@ -22,3 +23,8 @@
 <p>if button 1 pressed turn led 1 on only and if button 2 pressed turn led 2 on only</p>
 <p>in case two button pressed turn two led on</p>
 <p>in case no button pressed trun two led off</p>
+
+## Exercise-3
+<p>Connect switch to Pin 0 in PORTB using Internal Pull up  resistor</p>
+<p>connect led to pin 0 PORTC using negative logic</p>
+<p>if button pressed toggle Led every New press</p>
