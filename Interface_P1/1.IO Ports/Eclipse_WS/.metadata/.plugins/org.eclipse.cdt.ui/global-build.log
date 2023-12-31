@@ -1,35 +1,33 @@
-13:27:49 **** Incremental Build of configuration Debug for project 8.Challenge3 ****
+17:02:30 **** Incremental Build of configuration Debug for project 9.Challenge4 ****
 make all 
 Building file: ../main.c
 Invoking: AVR Compiler
 avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
-In file included from ../main.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
 Finished building: ../main.c
  
-Building target: 8.Challenge3.elf
+Building target: 9.Challenge4.elf
 Invoking: AVR C Linker
-avr-gcc -Wl,-Map,8.Challenge3.map -mmcu=atmega16 -o "8.Challenge3.elf"  ./main.o   
-Finished building target: 8.Challenge3.elf
+avr-gcc -Wl,-Map,9.Challenge4.map -mmcu=atmega16 -o "9.Challenge4.elf"  ./main.o   
+Finished building target: 9.Challenge4.elf
  
 Invoking: AVR Create Extended Listing
-avr-objdump -h -S 8.Challenge3.elf  >"8.Challenge3.lss"
-Finished building: 8.Challenge3.lss
+avr-objdump -h -S 9.Challenge4.elf  >"9.Challenge4.lss"
+Finished building: 9.Challenge4.lss
  
 Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 8.Challenge3.elf  "8.Challenge3.hex"
-Finished building: 8.Challenge3.hex
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 9.Challenge4.elf  "9.Challenge4.hex"
+Finished building: 9.Challenge4.hex
  
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega16 8.Challenge3.elf
+avr-size --format=avr --mcu=atmega16 9.Challenge4.elf
 AVR Memory Usage
 ----------------
 Device: atmega16
 
-Program:    3720 bytes (22.7% Full)
+Program:     226 bytes (1.4% Full)
 (.text + .data + .bootloader)
 
-Data:         18 bytes (1.8% Full)
+Data:          0 bytes (0.0% Full)
 (.data + .bss + .noinit)
 
 

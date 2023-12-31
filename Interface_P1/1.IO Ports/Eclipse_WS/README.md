@@ -6,6 +6,7 @@
 - [Challenge-1](#Challenge-1)
 - [Challenge-2](#Challenge-2)
 - [Exercise-5](#Exercise-5)
+- [Challenge-3](#Challenge-3)
 - [Challenge-4](#Challenge-4)
 
 
@@ -54,3 +55,8 @@
 <p>Connect 7-seg common anode to first 4 pins of PORTD </p>
 <p>if B1 pressed increase number displayed in 7-seg and if number reach maximum do nothing</p>
 <p>if B2 pressed decrease number displayed in 7-seg and if number reach minimum do nothing</p>
+
+## Challenge-4
+<p>Connect Pin 0 in PORTC to PIR sensor as this pin is input pin</p>
+<p>Connect pin 0 in PORTB to LED using positive logic</p>
+<p>turn on led when motion is detected uding PIR otherwise turn off</p>

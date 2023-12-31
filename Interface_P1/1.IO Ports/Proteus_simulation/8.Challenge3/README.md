@@ -1,4 +1,4 @@
-# Simulation Challenge 2
+# Simulation Challenge 3
 - [Schematic](#Schematic)
 - [Main-component](#Main-component)
 
