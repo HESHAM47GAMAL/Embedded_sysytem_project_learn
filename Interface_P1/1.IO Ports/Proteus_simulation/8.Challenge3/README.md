@@ -1,6 +1,7 @@
 # Simulation Challenge 2
 - [Schematic](#Schematic)
 - [Main-component](#Main-component)
+- [Demo](#Demo)
 
 ## Schematic
 
@@ -28,4 +29,8 @@
 - ATmega32
 - Resistor
 - Button
-- 7-seg common cathode 
+- 7-seg common cathode
+
+## Demo
+
+[![Video Title](https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/Interface_P1/1.IO%20Ports/Proteus_simulation/8.Challenge3/Demo.mp4)](https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/Interface_P1/1.IO%20Ports/Proteus_simulation/8.Challenge3/Demo.mp4)
