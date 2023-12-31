@@ -47,7 +47,9 @@ int main(void)
 //	}
 
 
-	/* If use 7 segment direct*/
+/*************** If use 7 segment direct ************************/
+
+
 	DDRD = 0xFF ; // configure all port as output to connect with 7-segment
 	PORTD = lookUpTable[0] | 0x80 ; // to init 7-seg with 0
 

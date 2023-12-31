@@ -6,6 +6,8 @@
 - [Challenge-1](#Challenge-1)
 - [Challenge-2](#Challenge-2)
 - [Exercise-5](#Exercise-5)
+- [Challenge-4](#Challenge-4)
+
 
 ## Exercise-1
 <p>1.connect pin3 PortA with push button using Pull up resistor</p>
@@ -47,3 +49,8 @@
 <p>7-segment common anode connect to first 4 pins in PORTC </p>
 <p>if switch pressed increase number appear in 7-seg until max then make overflow</p>
 
+## Challenge-3
+<p>Connect two push button to pin 0 & 1 in PORTA using pull down </p>
+<p>Connect 7-seg common anode to first 4 pins of PORTD </p>
+<p>if B1 pressed increase number displayed in 7-seg and if number reach maximum do nothing</p>
+<p>if B2 pressed decrease number displayed in 7-seg and if number reach minimum do nothing</p>
