@@ -4,6 +4,8 @@
 - [Exercise-3](#Exercise-3)
 - [Exercise-4](#Exercise-4)
 - [Challenge-1](#Challenge-1)
+- [Challenge-2](#Challenge-2)
+- [Exercise-5](#Exercise-5)
 
 ## Exercise-1
 <p>1.connect pin3 PortA with push button using Pull up resistor</p>
@@ -33,3 +35,15 @@
 ## Challenge-1
 <p>Connect 8 leds to PORTC using Positive logic</p>
 <p>make roll action as led1 only turn on then next one and last off then next one until led8 and return from begin at led1</p>
+
+## Challenge-2
+<p>connect push button 1 7 2 to pin 3 & 4 in PORTA using  PULL Down connection</p>
+<p>Connect all pins of PORTD to leds using Positive logic</p>
+<p>If (B1) or (B1 & B2) pressed only make even leds blink every half second</p>
+<p>If B2 pressed only make odd leds blink every half second</p>
+
+## Exercise-5
+<p>connect pin 4 in PORTD to push button using pull down</p>
+<p>7-segment common anode connect to first 4 pins in PORTC </p>
+<p>if switch pressed increase number appear in 7-seg until max then make overflow</p>
+
