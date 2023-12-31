@@ -1,6 +1,7 @@
 # Simulation Exercise 5
 - [Schematic](#Schematic)
 - [Main-component](#Main-component)
+- [Demo](#Demo)
 
 ## Schematic
 
@@ -30,4 +31,10 @@
 - ATmega32
 - Resistor
 - Button
-- 7-seg common cathode 
+- 7-seg common cathode
+
+## Demo
+
+https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/assets/77234053/1ed63d08-3afd-4a1b-a097-405206a72abc
+
+
