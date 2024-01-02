@@ -9,7 +9,7 @@
 <p>Here will talk about Digital Input/Output pins and how can deal with it and apply on it some exercise and challenges</p>
 
 ## External-Interrupts
-
+<p>Here will talk about Interrupt and specially External Interrupt and how trigger it and apply on it some exercise and challenges</p>
 
 ## Timers
 
