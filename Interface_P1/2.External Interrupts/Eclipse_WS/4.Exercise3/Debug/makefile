@@ -34,17 +34,17 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := 0.Test
+BUILD_ARTIFACT_NAME := 4.Exercise3
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LSS += \
-0.Test.lss \
+4.Exercise3.lss \
 
 FLASH_IMAGE += \
-0.Test.hex \
+4.Exercise3.hex \
 
 SIZEDUMMY += \
 sizedummy \
@@ -54,37 +54,37 @@ sizedummy \
 all: main-build
 
 # Main-build Target
-main-build: 0.Test.elf secondary-outputs
+main-build: 4.Exercise3.elf secondary-outputs
 
 # Tool invocations
-0.Test.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+4.Exercise3.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,0.Test.map -mmcu=atmega16 -o "0.Test.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,4.Exercise3.map -mmcu=atmega16 -o "4.Exercise3.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-0.Test.lss: 0.Test.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+4.Exercise3.lss: 4.Exercise3.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: AVR Create Extended Listing'
-	-avr-objdump -h -S 0.Test.elf  >"0.Test.lss"
+	-avr-objdump -h -S 4.Exercise3.elf  >"4.Exercise3.lss"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-0.Test.hex: 0.Test.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+4.Exercise3.hex: 4.Exercise3.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Create Flash image (ihex format)'
-	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 0.Test.elf  "0.Test.hex"
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4.Exercise3.elf  "4.Exercise3.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-sizedummy: 0.Test.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+sizedummy: 4.Exercise3.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: Print Size'
-	-avr-size --format=avr --mcu=atmega16 0.Test.elf
+	-avr-size --format=avr --mcu=atmega16 4.Exercise3.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) 0.Test.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) 4.Exercise3.elf
 	-@echo ' '
 
 secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)
