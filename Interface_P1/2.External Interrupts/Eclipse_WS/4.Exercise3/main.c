@@ -12,6 +12,7 @@
 
 ISR(INT0_vect)
 {
+	SREG |= (1 << 7); // there is need to this as there are not maskable interrupt has priority higher than EXT INT0
 	char value = 1 ;
 	PORTB = ( PORTB & 0xF0) | (value & 0x0F) ;
 	_delay_ms(3000);
@@ -103,10 +104,3 @@ int main()
 
 }
 
-
-//int main()
-//{
-//	DDRB = 0x0F;
-//	PORTB = (PORTB & 0xF0) | 0x0F;
-//	while(1);
-//}

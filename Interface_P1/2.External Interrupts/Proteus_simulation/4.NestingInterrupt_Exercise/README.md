@@ -1,4 +1,4 @@
-# Simulation Exercise 2
+# Simulation Exercise 3
 - [Schematic](#Schematic)
 - [Main-component](#Main-component)
 - [Demo](#Demo)
