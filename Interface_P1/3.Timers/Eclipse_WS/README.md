@@ -1,7 +1,7 @@
 # Explain prolems for exercises and challenges
 - [Exercise-1](#Exercise-1)
 - [Exercise-2](#Exercise-2)
-- [Challenge-1](#Challenge-1])
+- [Challenge-1](#Challenge-1)
 
 ## Exercise-1
 <p>Configure MCU clock </p>
