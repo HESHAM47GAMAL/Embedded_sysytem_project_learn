@@ -3,7 +3,8 @@
 - [Exercise-2](#Exercise-2)
 - [Challenge-1](#Challenge-1)
 - [Exercise-3](#Exercise-3)
-
+- [Exercise-4](#Exercise-4)
+- [Challenge-2](#Challenge-2)
 
 
 ## Exercise-1
@@ -29,3 +30,16 @@
 <p>Connect Pin 0 in PORTC and pin 0 in PORTA to led using positive logic </p>
 <p>Use Timer0 to generate time Delay as toggle led for every half second using Normal mode</p>
 <p>Use Interrupt Technique</p>
+
+## Exercise-4
+<p>configure MCU clock to 1 MHZ</p>
+<p>use CTC mode to generate Waveform with 2 KHZ clock using same MCu clock (prescaler 1)</p>
+<p>Duty cycle 50 %</p>
+
+## Challenge-2
+<p>configure MCU clock to 8 MHZ</p>
+<p>use CTC mode to generate WaveForms using (prescaler 8)</p>
+<p>configure first 3 pins in PORTC to drive out this signals </p>
+<p>First wave with 10KHZ  , Second wave with 5KHZ , third wave with 2.5KHZ</p>
+<p>Duty cycle 50 %</p>
+
