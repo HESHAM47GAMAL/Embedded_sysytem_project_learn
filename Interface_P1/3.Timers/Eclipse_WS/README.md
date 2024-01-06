@@ -5,7 +5,7 @@
 - [Exercise-3](#Exercise-3)
 - [Exercise-4](#Exercise-4)
 - [Challenge-2](#Challenge-2)
-
+- [Exercise-5](#Exercise-5)
 
 ## Exercise-1
 <p>Configure MCU clock </p>
@@ -43,3 +43,7 @@
 <p>First wave with 10KHZ  , Second wave with 5KHZ , third wave with 2.5KHZ</p>
 <p>Duty cycle 50 %</p>
 
+## Exercise-5
+<p>configure MCu clcok to 1 MHZ</p>
+<p>use Prescaler F_CPU/8</p>
+<p>use Fast PWM to generate waveform have duty cycle 50%</p>
