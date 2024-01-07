@@ -9,7 +9,7 @@
 <p>when program start turn LED1 on for half second then turn LED1 off and turn LED2 on for half second then turn it off</p>
 <p>open WatchDog I configure timeout Period = 2.1 S </p>
 <p>then turn LED3 on for 1 second then turn off </p>
-<p>Inside while(1) I **toggle** LED3 every 200 ms </p>
-<p>when Enter while(1) mostly ramian 1.1 second for expiration timeout </p>
-<p>so  During while(1) Expiration of Timeout period happen</p>
-<p>To avoid Timeout expiration so turn off watch dog  as can turn it off before while(1) </p>
+<p>Inside while(1) I <strong>toggle</strong> LED3 every 200 ms </p>
+<p>when Enter while(1) mostly ramian <strong>1.1 second</strong> for expiration timeout </p>
+<p>so <strong>During while(1)</strong> Expiration of Timeout period happen</p>
+<p>To <strong>avoid Timeout expiration</strong> so turn off watch dog  as can turn it off before while(1) </p>
