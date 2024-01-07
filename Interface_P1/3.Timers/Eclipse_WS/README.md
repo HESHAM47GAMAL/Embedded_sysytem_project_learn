@@ -6,6 +6,8 @@
 - [Exercise-4](#Exercise-4)
 - [Challenge-2](#Challenge-2)
 - [Exercise-5](#Exercise-5)
+- [Exercise-6](#Exercise-6)
+
 
 ## Exercise-1
 <p>Configure MCU clock </p>
@@ -47,3 +49,9 @@
 <p>configure MCu clcok to 1 MHZ</p>
 <p>use Prescaler F_CPU/8</p>
 <p>use Fast PWM to generate waveform have duty cycle 50%</p>
+
+## Exercise-6
+<p>configure your MCU clock </p>
+<p>use Timer0 in fast pWM mode using prescaler 8 </p>
+<p>in continous loop control led intensity as increase from 0 to max value then decrease it from max to low then repeat it</p>
+

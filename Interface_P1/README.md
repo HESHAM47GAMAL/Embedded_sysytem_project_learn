@@ -15,5 +15,7 @@
 <p>Here will talk about Timers/Counters and how use it in different modes 1.Normal (Overflow) mode 2. Clear timer on compare mode(CTC) 3.pulse width modulation mode and apply on it some exercise and challenges</p>
 
 ## WatchDog
+<p>Here will talk about Watch Dog Timer and apply on it some exercise and challenges</p>
+
 
 ## Motors
