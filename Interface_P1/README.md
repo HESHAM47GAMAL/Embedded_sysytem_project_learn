@@ -19,3 +19,5 @@
 
 
 ## Motors
+<p>Here will talk about Motor and deal with DC , stepper , servo motor and apply on it some exercise and challenges</p>
+
