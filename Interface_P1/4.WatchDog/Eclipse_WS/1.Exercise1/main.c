@@ -5,6 +5,7 @@
  *      Author: moham
  */
 #include <avr/io.h>
+#define F_CPU 8000000UL
 #include <util/delay.h>
 
 
@@ -22,13 +23,12 @@ void WatchDog_on(void)
 /*
  * To Disable watchDog timer follow this steps
  * 1.write logic 1 to WDTOE & WDE in same operation
- * 2.wait 4 clock cycle   ----> I work using 8MHZ  --->  Time_for_tick = 1/(8*10^6)  --> so 4cycle =0.5us
- * 3.then write 0 in WDE
+ * 2.within 4 clock cycle  write 0 in WDE
  */
 void watchDog_off(void)
 {
 	WDTCR |= (1 << WDTOE) | (1 << WDE) ;
-	_delay_us(0.5);
+
 	WDTCR &= ~(1 << WDE);
 
 }
@@ -49,11 +49,15 @@ int main()
 
 	PORTD ^= (1 << PD7);
 	_delay_ms(1000);
+
+	/***     To test Watch Dog make next line commented as timeout will expired and make Reset OR can uncomment next line to disable watchdog before time expiration              ***/
+	//  watchDog_off();
 	PORTD ^= (1 << PD7);
 
 	while(1)
 	{
-
+		_delay_ms(200);
+		PORTD ^= (1 << PD7);
 	}
 
 
