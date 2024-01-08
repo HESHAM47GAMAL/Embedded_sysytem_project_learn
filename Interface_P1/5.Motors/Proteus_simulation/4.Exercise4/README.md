@@ -13,7 +13,6 @@
   ## Main-component
 
 - ATmega32
-- Push Button 
 - Servo motor
 
 
