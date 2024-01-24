@@ -5,7 +5,7 @@
 
   ## Schematic
 
-<img src="https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/interface_p2/1.Keypad/Proteus_simulation/1.Exercise1/Schematic.png">
+<img src="https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/interface_p2/2.LCD/Proteus_simulation/1.Exercise1/Schematic.png">
 
   ## Main-component
 
@@ -15,4 +15,4 @@
 
 ## Demo
 
-https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/assets/77234053/aac53d44-083e-48e4-983c-68f88c466c86
+https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/assets/77234053/763d71f1-f749-46f9-b7a8-beac32489c5d
