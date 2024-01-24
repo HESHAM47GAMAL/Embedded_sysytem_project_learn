@@ -28,12 +28,13 @@ int main (void)
 		uint8 keypad_pressed_Button = Keypad_GetPressedKey();
 		if(keypad_pressed_Button>=0 && keypad_pressed_Button <= 9)
 		{
-			LCD_intToString(LCD_intToString);
+			LCD_intToString((uint32)keypad_pressed_Button);
 		}
 		else
 		{
 			LCD_DisplayCharacter( keypad_pressed_Button);
 		}
+		_delay_ms(500); /* Press time */
 	}
 
 }

@@ -1,7 +1,7 @@
 # Explain prolems for exercises and challenges
 - [Exercise-1](#Exercise-1)
 - [Exercise-2](#Exercise-2)
-
+- [Challenge-1](#Challenge-1)
 
 
 ## Exercise-1
@@ -20,4 +20,18 @@
 <p>connect E to pin 6 in PORTC</p>
 <p>Display "Welcome To LCD" string @ row =0 , col =0</p>
 <p>Display "4 Bit Data Mode" string @ row =1 , col =0</p>   
+
+
+
+## Challenge-1
+<p>Connect LCD to PORTA using 4 bit data line PD4 -> PIN4 , PD5 -> PIN5 and so on</p>
+<p>connect RS to pin 0 in PORTC</p>
+<p>connect RW to pin 1 in PORTC</p>
+<p>connect E to pin 6 in PORTC</p>
+<p>Connect Keypad 4*4 to PORTB</p>
+<p>Display "Challenge" string @ row =0 , col =0</p>
+<p>Display "Keypad 4*4" string @ row =1 , col =0</p>   
+<p>then clean Screen</p>
+<p>Display button pressed on LCD</p>
+
 

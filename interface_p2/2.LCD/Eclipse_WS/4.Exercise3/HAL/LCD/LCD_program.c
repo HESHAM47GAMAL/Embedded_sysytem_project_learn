@@ -14,8 +14,8 @@
 #include "LCD_config.h"
 #include "LCD_interface.h"
 #include "../../MCAL/GPIO/GPIO_interface.h"
- #include <stdlib.h>
- #include <string.h>
+#include <stdlib.h>
+#include <string.h>
 
 #include <util/delay.h>
 
@@ -42,7 +42,7 @@ void LCD_init(void)
     #if(LCD_BITS_MODE == LCD_8_BIT_MODE)
         GPIO_SetPortDirection(LCD_DATA_PORT,OUTPUT_PORT);
         /*  Send command that tell I want to use 8 data pins*/
-        LCD_SendCommand(LCD_2_LINE_8_BIT_5x8_DOT) ; 
+        LCD_SendCommand(LCD_2_LINE_8_BIT_5x8_DOT) ;
     #elif(LCD_BITS_MODE == LCD_4_BIT_MODE)
         for(uint8 it = 0 ; it < 4 ;it++)
         {
@@ -51,7 +51,7 @@ void LCD_init(void)
         /*  It's step mandatory in 4 bits data pins*/
         LCD_SendCommand(LCD_RETURN_TO_HOME_IN_SCREEN);
         /*  Send command that tell I want to use 4 data pins*/
-        LCD_SendCommand(LCD_2_LINE_4_BIT_5x8_DOT) ; 
+        LCD_SendCommand(LCD_2_LINE_4_BIT_5x8_DOT) ;
     #endif
 
     /*  Put configuration of Cursor     */
@@ -195,12 +195,12 @@ void LCD_MoveCursor(uint8 row , uint8 col)
     /*  calculate location that cursor will move to     */
     switch(row)
     {
-        case 0 : 
+        case 0 :
             New_Location = col ;
             col_global = col ;
             row_global = 0 ;
             break ;
-        
+
         case 1 :
             New_Location = col + 0x40 ;
             col_global = col ;
@@ -211,7 +211,7 @@ void LCD_MoveCursor(uint8 row , uint8 col)
             New_Location = col + 0x10 ;
             break;
 
-        case 3 : 
+        case 3 :
             New_Location = col + 0x50 ;
             break;
         default :
@@ -238,7 +238,7 @@ void LCD_ClearScreen(void)
 
 void LCD_MoveCursorRight(void)
 {
-    
+
     if(col_global == 15 && row_global == 0 )
     {
         col_global = 0 , row_global = 1 ;
@@ -273,7 +273,7 @@ void LCD_MoveCursorLeft(void)
         LCD_SendCommand(LCD_CURSOR_MOVE_LEFT);
         col_global--;
     }
-    
+
 }
 
 
