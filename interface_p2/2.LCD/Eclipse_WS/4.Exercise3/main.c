@@ -9,7 +9,7 @@
 #include "MCAL/GPIO/GPIO_interface.h"
 #include "HAL/KEYPAD/Keypad_interface.h"
 #include "HAL/LCD/LCD_interface.h"
-
+#define F_CPU 8000000UL
 #include <util/delay.h>
 #define _7_seg_port 	PORTD_ID
 
@@ -24,18 +24,18 @@ int main()
 
 	LCD_DisplayStringRowCol("Store Custom",0,2);
 	LCD_DisplayStringRowCol("char In CGRAM",1,2);
-	_delay_ms(5000);
+	_delay_ms(8000);
 
 	static char lookUpTable [] ={0x3F , 0x06 , 0x5B , 0x4F , 0x66 , 0x6D , 0x7C , 0x07 , 0x7F , 0x67}; // to control 7 segment
 	GPIO_WritePort(_7_seg_port , lookUpTable[0]);
  	uint8 Keypad_value  ;
 	uint8 port_value_for_7_seg = 0;
-	
+	LCD_ClearScreen();
 	LCD_DisplayStringRowCol("I ",0,2);
 	LCD_DisplayCustomCharacter(LCD_CGRAM_LOCATION_1);
 	LCD_DisplayString(" Embedded");
-// 	LCD_MoveCursor(1,10);
-
+	_delay_ms(8000);
+	LCD_ClearScreen();
 	
 	while(1)
 	{
@@ -62,11 +62,16 @@ int main()
 		}
 		else if(Keypad_value == 5)
 		{
-			LCD_DisplayCharacter('H');
+			LCD_DisplayCustomCharacter(LCD_CGRAM_LOCATION_1);
+		}
+		else if(Keypad_value == 2)
+		{
+			LCD_ClearScreen();
 		}
 		else if(Keypad_value == 8)
 		{
-			LCD_ClearScreen();
+			LCD_DisplayStringRowCol("Hesham",0,5);
+			LCD_DisplayStringRowCol("Shehata",1,5);
 		}
 
 	}
