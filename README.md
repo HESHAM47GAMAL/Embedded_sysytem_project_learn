@@ -8,7 +8,10 @@
 - [Project-for-learn-process](#Project-for-learn-process)
 
 ## Description
-<P>Here I Implement exercise using built in and my own drivers to learn Embedded system and this done in course Eng Mohamed Tarek and Do Some exercise from another courses and most of them I make <Strong>small video🎥</Strong> to show it in hardware implement(check this videos attached in readme for proteus simulation)</P>
+<P>Here I Implement exercise using built in and my own drivers to learn Embedded system and this done in course Eng Mohamed Tarek and Do Some exercise from another courses</P>
+<p> In each interface part will find Folder & in each folder will find two Folders </p>
+<p>1.Eclipse_ws : will find exercise or challenge Description  and code Implement</p> 
+<p>2.Proteus_simulation : will find simulation and schematic and component used and  most of them I make <Strong>small video🎥</Strong> to show it in hardware implement(check this videos attached in readme for proteus simulation)</p>
 
 ## Content 
 <p>Here will upload Exercise and Challenges to learn  Embedded System and consist of two parts </p>
