@@ -8,7 +8,7 @@
 - [Project-for-learn-process](#Project-for-learn-process)
 
 ## Description
-<P>Here I Implement exercise using built in and my own drivers to learn Embedded system and this done in course Eng Mohamed Tarek</P>
+<P>Here I Implement exercise using built in and my own drivers to learn Embedded system and this done in course Eng Mohamed Tarek and Do Some exercise from another courses and most of them I make small video to show it in hardware implement(check this videos attached in readme for proteus simulation)</P>
 
 ## Content 
 <p>Here will upload Exercise and Challenges to learn  Embedded System and consist of two parts </p>
