@@ -38,3 +38,4 @@
 <p>Use ADC single conversion mode  to read value of potentiometer and display value in lcd</p>
 <p>Note⛔⛔🙆‍♂️🙆‍♂️this not give correct value  in simulation but it work and in real world give great ressponse</p>
 <p>Note⛔⛔🙆‍♂️🙆‍♂️I face prolem to build project in Eclipse but it buid in Atmel studio </p>
+<img src="https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/interface_p2/3.ADC/Eclipse_WS/NTC.jpg">
