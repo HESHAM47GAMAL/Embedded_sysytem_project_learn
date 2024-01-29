@@ -1,4 +1,4 @@
-# Simulation Exercise 2
+# Simulation Exercise 3
 - [Schematic](#Schematic)
 - [Main-component](#Main-component)
 - [Demo](#Demo)
@@ -16,5 +16,7 @@
 
 ## Demo
 
-https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/assets/77234053/88e16d74-ec78-44b3-8b9e-bad4e01685e0
- 
+https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/assets/77234053/bf88a3b4-bd3e-4ec8-baca-e52e42e81eda
+
+
+https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/assets/77234053/e4c1cf4f-5925-4889-8cf6-416952d11cc5

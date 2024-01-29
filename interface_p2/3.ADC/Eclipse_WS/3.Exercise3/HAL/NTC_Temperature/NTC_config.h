@@ -23,7 +23,7 @@
 /*  Choose pin used to make analog read     */
 #define NTC_PIN         ADC_Channel_0
 
-#define R2              (float32)10000   //R2 Recommended to be 10K ohm
+#define R2              10000   //R2 Recommended to be 10K ohm
 
 
 
