@@ -40,18 +40,21 @@ int main()
 
 	while(1)
 	{
-
-		for(intensity = 0 ; intensity < 255 ; intensity += 5)
-		{
-			TIMER0_Fast_PWM(intensity);
-			_delay_ms(200);
-		}
-		for(intensity = 255 ; intensity > 0 ; intensity -= 5)
-		{
-			PORTC |= (1 << PC0);
-			TIMER0_Fast_PWM(intensity);
-			_delay_ms(200);
-		}
+		TIMER0_Fast_PWM(255);
+		_delay_ms(3000);
+		TIMER0_Fast_PWM(0);
+		_delay_ms(3000);
+//		for(intensity = 0 ; intensity < 255 ; intensity += 5)
+//		{
+//			TIMER0_Fast_PWM(intensity);
+//			_delay_ms(200);
+//		}
+//		for(intensity = 255 ; intensity > 0 ; intensity -= 5)
+//		{
+//			PORTC |= (1 << PC0);
+//			TIMER0_Fast_PWM(intensity);
+//			_delay_ms(200);
+//		}
 
 	}
 

@@ -7,6 +7,8 @@
 - [Challenge-2](#Challenge-2)
 - [Exercise-5](#Exercise-5)
 - [Exercise-6](#Exercise-6)
+- [Challenge-3](#Challenge-3)
+- [Challenge-4](#Challenge-4)
 
 
 ## Exercise-1
@@ -30,7 +32,7 @@
 ## Exercise-3
 <p>Configure MCU clock I work with 8 MHZ</p>
 <p>Connect Pin 0 in PORTC and pin 0 in PORTA to led using positive logic </p>
-<p>Use Timer0 to generate time Delay as toggle led for every half second using Normal mode</p>
+<p>Use Timer0 to generate time Delay as toggle led for every half second using CTC mode</p>
 <p>Use Interrupt Technique</p>
 
 ## Exercise-4
@@ -54,4 +56,15 @@
 <p>configure your MCU clock </p>
 <p>use Timer0 in fast pWM mode using prescaler 8 </p>
 <p>in continous loop control led intensity as increase from 0 to max value then decrease it from max to low then repeat it</p>
+
+
+## Challenge-3
+<p>use MCU clock = 8Mhz</p>
+<p>use Timer0 in fast pWM mode to generate PWM signal with Frequency = 4Khz </p>
+<p>choose required prescaler for this frequency</p>
+
+
+## Challenge-4
+<p>use MCU clock = 8Mhz</p>
+<p>Use Timer1 in CTC mode with prescaler 8 to generate PWM signal with frequency = 2Khz with dutcy cycle = 25% on PC0 </p>
 
