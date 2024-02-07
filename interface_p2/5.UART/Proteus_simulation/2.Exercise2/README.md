@@ -5,7 +5,7 @@
 
   ## Schematic
 
-<img src="https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/interface_p2/5.USART/Proteus_simulation/2.Exercise2/Schematic.png">
+<img src="https://github.com/HESHAM47GAMAL/Embedded_sysytem_project_learn/blob/main/interface_p2/5.UART/Proteus_simulation/1.Exercise1/Schematic.png">
 
   ## Main-component
 
