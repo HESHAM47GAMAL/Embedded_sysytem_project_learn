@@ -38,7 +38,7 @@
 
 
 
-## Exercise-2
+## Exercise-3
 <p>Connect LCD to PORTA using 4 bit data line PD4 -> PIN4 , PD5 -> PIN5 and so on</p>
 <p>connect RS to pin 0 in PORTC</p>
 <p>connect RW to pin 1 in PORTC</p>
